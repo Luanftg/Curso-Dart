@@ -22,7 +22,9 @@
 
 ## 12 - Tratamento de Erros
 
-## 13 - Enum
+## 13 - Extensions
+
+## 14 - Enum
 
 ### Referência
 

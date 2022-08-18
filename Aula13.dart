@@ -1,30 +1,18 @@
 void main() {
-  var pagamento = Pagamento();
-  pagamento.pagar(TipoPagamento.CARTAO);
+  String nome = 'luan';
+  //print(nome[0].toLowerCase() + nome.substring(1).toUpperCase());
+  //print(Utils().toFirstCharToUpperCase(nome));
+  print(nome.toFirstCharToUpperCase());
 }
 
-enum TipoPagamento { PIX, BOLETO, CARTAO }
-
-extension ExtensionTipoPagamento on TipoPagamento {
-  String toValue() {
-    Map map = {
-      TipoPagamento.PIX: 'Pix',
-      TipoPagamento.BOLETO: 'Boleto',
-      TipoPagamento.CARTAO: 'Cartao',
-    };
-
-    return map[this];
+extension ExtensionString on String {
+  String toFirstCharToUpperCase() {
+    return this[0].toUpperCase() + this.substring(1);
   }
 }
 
-class Pagamento {
-  void pagar(TipoPagamento tipoPagamento) {
-    if (tipoPagamento.toValue() == "Pix") {
-      print('Pagando com Pix');
-    } else if (tipoPagamento.toValue() == "Boleto") {
-      print('Pagando com Boleto');
-    } else if (tipoPagamento.toValue() == 'Cartao') {
-      print('Pagamento com Cartao');
-    }
+class Utils {
+  toFirstCharToUpperCase(String value) {
+    return value[0].toUpperCase() + value.substring(1);
   }
 }
