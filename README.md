@@ -18,7 +18,9 @@
 
 ## 10 - Manipulando JSON
 
-## 11 - CallableInterface(Call)
+## 11 - Callable Class(Call)
+
+## Tratamento de Erros
 
 ### Referência
 
