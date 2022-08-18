@@ -11,7 +11,7 @@ void main() {
 
 class Carro {
   final String modelo;
-  String _segredo = 'Meu Segredo';
+  String _segredo = 'Meu Segredo'; // private segredo
 
   int _valor = 1000;
 
