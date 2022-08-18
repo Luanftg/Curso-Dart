@@ -20,7 +20,9 @@
 
 ## 11 - Callable Class(Call)
 
-## Tratamento de Erros
+## 12 - Tratamento de Erros
+
+## 13 - Enum
 
 ### Referência
 
