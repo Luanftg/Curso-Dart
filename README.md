@@ -26,6 +26,8 @@
 
 ## 14 - Enum
 
+    Referência ao SDK >= 2.17.0 com novas funcionalidades para Enum - ``Enhanced Enum``
+
 ### Referência
 
 [Curso de Dart - DEivid Willyan](https://www.youtube.com/watch?v=STdkaNVUKYs&list=PLRpTFz5_57cseSiszvssXO7HKVzOsrI77&index=7)
